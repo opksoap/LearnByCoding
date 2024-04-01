@@ -1,0 +1,187 @@
+
+body {
+	font-family: "Poppins", sans-serif;
+	height: 100vh;
+	background-image: url("Resimler/backgroundimg5.png");
+	background-size: cover;
+	background-position: center;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 300px;
+	border: transparent;
+	backdrop-filter: blur(40px);
+}
+.navbar {
+	display: flex;
+	justify-content: center; /* Bu, menü öğelerini yatay olarak ortalayacaktır */
+	align-items: center; /* Bu, menü öğelerini dikey olarak ortalayacaktır, eğer menü çubuğunuzun yüksekliği varsa */
+	height: 50px; /* Örnek bir yükseklik değeri */
+	background: transparent;
+	backdrop-filter: blur(80px);
+	margin: 40px auto;
+	border-radius: 25px;
+	width: 775px;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: #7f6bb5;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 8px;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.dropdown .dropbtn {
+	cursor: pointer;
+	font-size: 16px;    
+	border: none;
+	outline: none;
+	color: #7f6bb5;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #321d63;
+}
+.navbar .img-logo a:hover{
+	background-color: rgba(0,0,0,0);
+	
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background:#7f6bb5;
+	border: 3px solid rgba(0,0,0,.2);
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+	backdrop-filter: blur(40px);
+	min-width: 160px;
+	border-radius: 8px;
+}
+.dropdown-content a {
+	float: none;
+	color: #fff;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	border-radius: 8px;
+}
+.dropdown-content a:hover {
+	background-color: #321d63;
+	box-shadow:  3px 5px rgba(0, 0, 0, 0.464);
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+a{
+	color: #321d63;
+	text-decoration: none;
+	
+}
+h1{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 290px auto;
+	width: 20%;
+    padding: 20px;
+    border: 5px solid #ddd;
+	backdrop-filter: blur(40px);
+    border-radius: 5px;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+}
+.etkinlik-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 150px;
+	align-items: center;
+	margin: -350px auto;
+	
+}
+.etkinlik {
+    width: 30%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid #ddd;
+	backdrop-filter: blur(40px);
+    border-radius: 5px;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+}
+.etkinlik img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+}
+.etkinlik h3 {
+    margin-top: 15px;
+    color: #1a182c;
+}
+.etkinlik h3 a{
+	text-decoration: none;
+	color: #1a182c;
+}
+.etkinlik p {
+    color: #1a182c;
+}
+.etkinlik button {
+    padding: 10px 20px;
+    background-color: #7f6bb5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+}
+.etkinlik button:hover {
+    background-color: #321d63;
+}
+.etkinlik-container .etkinlik img{
+	width: 365px;
+	height: 175px;
+}
+.search-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background: transparent ;
+	backdrop-filter: blur(40px);
+	width: 300px;
+	height: 40px ;
+	padding: 5px;
+	border-radius: 50px;
+	box-shadow:  5px 5px rgba(0, 0, 0, 0.464);
+}
+.tbox-search{
+	width: 250px;
+	float: left;
+	background: none;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 16px;
+	padding: 20px;
+}
+.btn-search{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float:right;
+	color: white;
+	font-size: 16px;
+}

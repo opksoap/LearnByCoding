@@ -1,0 +1,45 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+	height: 100vh;
+	background-image: url("Resimler/pixlr-image-generator-0f65188c-1ad5-4be4-ba13-dd92415c4d2d.png");
+	background-size: cover;
+	background-position: center;
+}
+h2{
+    border: 5px solid #fff;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .476);
+}
+.Contact{
+    position: relative;
+    min-height: 25vh;
+    padding: 8px 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+.Contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #282331;
+}
+.Contact .content p{
+    font-weight: 300;
+    color: #333;
+    padding: 10px 10px;
+    border: 5px solid #fff;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .476);
+    text-align:justify;
+}
